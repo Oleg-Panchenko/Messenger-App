@@ -29,6 +29,9 @@
 		D07D4D042869A5FA009CAE3E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D4D032869A5FA009CAE3E /* ListViewController.swift */; };
 		D07D4D082869A97D009CAE3E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D4D072869A97D009CAE3E /* MainTabBarController.swift */; };
 		D07D4D0A2869A9C9009CAE3E /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D4D092869A9C9009CAE3E /* PeopleViewController.swift */; };
+		D0854E202953298C00E55D95 /* AuthNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0854E1F2953298C00E55D95 /* AuthNavigationDelegate.swift */; };
+		D0854E222953307C00E55D95 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0854E212953307C00E55D95 /* FirestoreService.swift */; };
+		D0854E24295335DC00E55D95 /* UserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0854E23295335DC00E55D95 /* UserError.swift */; };
 		D0855492288B39C00040449B /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0855491288B39C00040449B /* SectionHeader.swift */; };
 		D08888C5287440F800D7AE71 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08888C4287440F800D7AE71 /* GradientView.swift */; };
 		D08888C72874541D00D7AE71 /* WaitingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08888C62874541D00D7AE71 /* WaitingChatCell.swift */; };
@@ -41,8 +44,11 @@
 		D0B9467828609593001D2DCE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9467728609593001D2DCE /* SignUpViewController.swift */; };
 		D0B9467A28609827001D2DCE /* OneLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9467928609827001D2DCE /* OneLineTextField.swift */; };
 		D0C688A82950A7CF00AFC943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C688A72950A7CF00AFC943 /* GoogleService-Info.plist */; };
+		D0D56F0C2950D6F100C1DD27 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D56F0B2950D6F100C1DD27 /* AuthService.swift */; };
 		D0DD835528723F2900451F54 /* ActiveChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD835428723F2900451F54 /* ActiveChatCell.swift */; };
 		D0E667822860F2A700BBA75F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E667812860F2A700BBA75F /* LoginViewController.swift */; };
+		D0E8D3852951D3F8002EB96B /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8D3842951D3F8002EB96B /* Validators.swift */; };
+		D0E8D3872951D8C0002EB96B /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8D3862951D8C0002EB96B /* AuthError.swift */; };
 		D0F6F7072866F7B6005A6856 /* SegmentedControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6F7062866F7B6005A6856 /* SegmentedControl + Extension.swift */; };
 		D0F98936294B12DA00007C9D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F98935294B12DA00007C9D /* UserCell.swift */; };
 		D0F98938294B155C00007C9D /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F98937294B155C00007C9D /* UIViewController + Extension.swift */; };
@@ -76,6 +82,9 @@
 		D07D4D032869A5FA009CAE3E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D07D4D072869A97D009CAE3E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		D07D4D092869A9C9009CAE3E /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		D0854E1F2953298C00E55D95 /* AuthNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigationDelegate.swift; sourceTree = "<group>"; };
+		D0854E212953307C00E55D95 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		D0854E23295335DC00E55D95 /* UserError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserError.swift; sourceTree = "<group>"; };
 		D0855491288B39C00040449B /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		D08888C4287440F800D7AE71 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D08888C62874541D00D7AE71 /* WaitingChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingChatCell.swift; sourceTree = "<group>"; };
@@ -88,8 +97,11 @@
 		D0B9467728609593001D2DCE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D0B9467928609827001D2DCE /* OneLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTextField.swift; sourceTree = "<group>"; };
 		D0C688A72950A7CF00AFC943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0D56F0B2950D6F100C1DD27 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D0DD835428723F2900451F54 /* ActiveChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveChatCell.swift; sourceTree = "<group>"; };
 		D0E667812860F2A700BBA75F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D0E8D3842951D3F8002EB96B /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		D0E8D3862951D8C0002EB96B /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		D0F6F7062866F7B6005A6856 /* SegmentedControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SegmentedControl + Extension.swift"; sourceTree = "<group>"; };
 		D0F98935294B12DA00007C9D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D0F98937294B155C00007C9D /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
@@ -114,7 +126,6 @@
 				EAEEFB7118805590A3A9DE24 /* Pods-IChat.debug.xcconfig */,
 				7B26E1C7B061AD3B04362978 /* Pods-IChat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,11 +160,13 @@
 			children = (
 				D0276EE6285F745E006B9132 /* AppDelegate.swift */,
 				D0276EE8285F745E006B9132 /* SceneDelegate.swift */,
-				D09AEA612948C132001B6A0C /* Model */,
+				D0D56F0A2950D6CE00C1DD27 /* Services */,
 				D07D4D052869A933009CAE3E /* SignIn&Auth */,
 				D07D4D062869A95B009CAE3E /* Controllers */,
 				D08888CA287455C600D7AE71 /* Protocols */,
 				D0B94672286075B0001D2DCE /* Extensions */,
+				D0E8D3882951DD0A002EB96B /* Helpers */,
+				D04829A42949D05200DADAD4 /* Json */,
 				D0276EEF285F7461006B9132 /* Assets.xcassets */,
 				D0276EF1285F7461006B9132 /* LaunchScreen.storyboard */,
 				D0276EF4285F7461006B9132 /* Info.plist */,
@@ -174,7 +187,6 @@
 				D0B9467528608877001D2DCE /* StackView + Extension.swift */,
 				D0F6F7062866F7B6005A6856 /* SegmentedControl + Extension.swift */,
 				D03E22F0294B9C4100296397 /* UIView + Extension.swift */,
-				D04829A42949D05200DADAD4 /* Json */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -218,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				D08888C8287455AD00D7AE71 /* SelfConfiguringCell.swift */,
+				D0854E1F2953298C00E55D95 /* AuthNavigationDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -253,6 +266,16 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D0D56F0A2950D6CE00C1DD27 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D0D56F0B2950D6F100C1DD27 /* AuthService.swift */,
+				D0854E212953307C00E55D95 /* FirestoreService.swift */,
+				D09AEA612948C132001B6A0C /* Model */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D0DD835328723F0900451F54 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +284,16 @@
 				D0F98935294B12DA00007C9D /* UserCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D0E8D3882951DD0A002EB96B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E8D3842951D3F8002EB96B /* Validators.swift */,
+				D0E8D3862951D8C0002EB96B /* AuthError.swift */,
+				D0854E23295335DC00E55D95 /* UserError.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,16 +414,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0854E222953307C00E55D95 /* FirestoreService.swift in Sources */,
 				D07D4D042869A5FA009CAE3E /* ListViewController.swift in Sources */,
 				D0B9467A28609827001D2DCE /* OneLineTextField.swift in Sources */,
 				D0855492288B39C00040449B /* SectionHeader.swift in Sources */,
 				D08888C5287440F800D7AE71 /* GradientView.swift in Sources */,
 				D07D4D082869A97D009CAE3E /* MainTabBarController.swift in Sources */,
 				D0B9467828609593001D2DCE /* SignUpViewController.swift in Sources */,
+				D0E8D3872951D8C0002EB96B /* AuthError.swift in Sources */,
 				D0DD835528723F2900451F54 /* ActiveChatCell.swift in Sources */,
 				D0276EFD285F857E006B9132 /* UIFont + Extension.swift in Sources */,
+				D0E8D3852951D3F8002EB96B /* Validators.swift in Sources */,
 				D07D4D0A2869A9C9009CAE3E /* PeopleViewController.swift in Sources */,
 				D0276EEB285F745E006B9132 /* AuthViewController.swift in Sources */,
+				D0854E202953298C00E55D95 /* AuthNavigationDelegate.swift in Sources */,
 				D03E22EF294B957D00296397 /* InsertableTextField.swift in Sources */,
 				D05450662870D24C004989BA /* Bundle-Decodable.swift in Sources */,
 				D027AE8E2861AFCE009D1D00 /* SetupProfileViewController.swift in Sources */,
@@ -400,6 +437,7 @@
 				D09AEA602948C0C5001B6A0C /* MUser.swift in Sources */,
 				D0B94674286077AA001D2DCE /* ButtonFormView.swift in Sources */,
 				D09796862863312C0095B840 /* AddPhotoView.swift in Sources */,
+				D0854E24295335DC00E55D95 /* UserError.swift in Sources */,
 				D0276EE7285F745E006B9132 /* AppDelegate.swift in Sources */,
 				D0276F04285F8CE0006B9132 /* UIImageView + Extension.swift in Sources */,
 				D03E22F1294B9C4100296397 /* UIView + Extension.swift in Sources */,
@@ -412,6 +450,7 @@
 				D0276EE9285F745E006B9132 /* SceneDelegate.swift in Sources */,
 				D0276EFB285F8256006B9132 /* UIButton + Extension.swift in Sources */,
 				D09AEA5E2948C0B7001B6A0C /* MChat.swift in Sources */,
+				D0D56F0C2950D6F100C1DD27 /* AuthService.swift in Sources */,
 				D0E667822860F2A700BBA75F /* LoginViewController.swift in Sources */,
 				D0B9467628608877001D2DCE /* StackView + Extension.swift in Sources */,
 			);
